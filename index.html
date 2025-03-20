@@ -166,93 +166,63 @@
         </section>
 
         <!--PORTFOLIO -->
-        <section id="portfolio" class="portfolio min-h-full w-full pb-8 pt-8">
-            <div class="portfolio__title flex flex-column gap-3 text-center">
-                <h1 class="text-3xl md:text-5xl">Mi trabajo</h1>
-                <p class="text-gray-400 text-sm md:text-base">
-                    Desarrollo TI (Pasantia Desarrollo web) (En Curso).
-                    Diseño de enterfaces y maquetacion de mockups utilizando la herramienta
-                    Figma, ademas de gestionar el desarrollo  en Angular
-                </p>
+        Index.html:
+
+<section id="portfolio" class="portfolio min-h-full w-full pb-8 pt-8">
+    <div class="portfolio__title flex flex-column gap-3 text-center">
+        <h1 class="text-3xl md:text-5xl">Mi trabajo</h1>
+        <p class="text-gray-400 text-sm md:text-base">
+            Desarrollo TI (Pasantía Desarrollo web) (En Curso).
+            Diseño de interfaces y maquetación de mockups utilizando la herramienta
+            Figma, además de gestionar el desarrollo en Angular.
+        </p>
+    </div>
+    <div class="portfolio__gallery">
+        <div class="gallery__categories mb-5 mt-5">
+            <ul class="flex list-none flex-wrap justify-content-center gap-3">
+                <li class="filter-item active" data-filter="all">Todos</li>
+                <li class="filter-item" data-filter="world__Tours">Desarrollo Web</li>
+                <li class="filter-item" data-filter="e__commerce">Diseño de interfaces</li>
+            </ul>
+        </div>
+        <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
+            <div class="project__card tours__Web">
+                <a href="assets/Proyecto.pdf" target="_blank">
+                    <img src="./assets/Proyecto2.jpeg" alt="Proyecto 1">
+                    <div class="overlay"></div>
+                    <div class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                        <h2>Proyecto 1</h2>
+                        <p>Diseño de una pagina web Para una Universidad</p>
+                        <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </div>
+                </a>
             </div>
-            <div class="portfolio__gallery">
-                <div class="gallery__categories mb-5 mt-5">
-                    <ul class="flex list-none flex-wrap justify-content-center gap-3">
-                        <li class="filter-item active" data-filter="all">Todos</li>
-                        <li class="filter-item " data-filter="world__Tours">Desarrollo Web</li>
-                        <li class="filter-item " data-filter="e__commerce">Diseño de interfaces</li>
-                    </ul>
-                </div>
-                <div class="proyect__gallery flex justify-content-center align-items-center flex-wrap gap-3">
-                    <div class="project__card tours__Web">
-                        <img src="./assets/proyecto-1.png" alt="">
-                        <div class="overlay"></div>
-                        <div
-                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
-                            <h2>1</h2>
-                            <p>
-                            </p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
+            <div class="project__card e__commerce">
+                <a href="assets/Proyecto01.pdf" target="_blank">
+                    <img src="./assets/Proyecto1.png" alt="Proyecto 2">
+                    <div class="overlay"></div>
+                    <div class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                        <h2>Proyecto 2</h2>
+                        <p>Diseño de una pagina para una tienda online de Ropa de marca</p>
+                        <span><i class="fa-solid fa-arrow-right-long"></i></span>
                     </div>
-                    <div class="project__card e__commerce">
-                        <img src="./assets/proyecto-2.png" alt="">
-                        <div class="overlay"></div>
-                        <div
-                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
-                            <h2>2</h2>
-                            <p>
-                            </p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </div>
-                    <div class="project__card tours__Web">
-                        <img src="./assets/proyecto-3.png" alt="">
-                        <div class="overlay"></div>
-                        <div
-                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
-                            <h2>3</h2>
-                            <p>
-                            </p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </div>
-                    <div class="project__card gym">
-                        <img src="./assets/proyecto-4.jpeg" alt="">
-                        <div class="overlay"></div>
-                        <div
-                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
-                            <h2>4</h2>
-                            <p>
-                            </p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </div>
-                    <div class="project__card world__Tours">
-                        <img src="./assets/proyecto-5.jpg" alt="">
-                        <div class="overlay"></div>
-                        <div
-                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
-                            <h2>5</h2>
-                            <p>
-                            </p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </div>
-                    <div class="project__card tours__Web">
-                        <img src="./assets/proyecto-6.webp" alt="">
-                        <div class="overlay"></div>
-                        <div
-                            class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
-                            <h2>6</h2>
-                            <p> 
-                            </p>
-                            <span><i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </div>
-                </div>
+                </a>
             </div>
-        </section>
+            <div class="project__card tours__Web">
+                <a href="assets/Proyecto02.pdf" target="_blank">
+                    <img src="./assets/Proyecto3.png" alt="Proyecto 3">
+                    <div class="overlay"></div>
+                    <div class="project__info flex w-full flex-column justify-content-center align-items-center text-center">
+                        <h2>Proyecto 3</h2>
+                        <p>Diseño de una pagina web para un menu de Desayunos, almuerzo y Cena</p>
+                        <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
         <!--FOOTER -->
         <footer id="contact" class="min-h-full w-full flex grid col-12 justify-content-center pb-8 pt-8 lg:text-center">
             <div class="social__media col-12 md:col-4 flex flex-column justify-content-between">
@@ -263,7 +233,7 @@
                     <a href="https://github.com/Yhuli1402" target="_blank" aria-label="Ir a Github">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com" target="_blank" aria-label="Ir a linkedin">
+                    <a href="https://www.linkedin.com/in/yhuli-giovana-fulguera-ichota-155766309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="Ir a linkedin">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                 </div>
